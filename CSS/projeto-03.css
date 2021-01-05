@@ -77,6 +77,7 @@ section.cessao1 {
     width: 100%;
     background-color: #472562;
     padding: 0px 2%;
+    height: 400px;
 }
 
 section.cessao1 .container {
@@ -86,35 +87,42 @@ section.cessao1 .container {
 .texto-cessao1 {
     float: left;
     width: 50%;
+    position: relative;
+    left: 80px;
+    margin-top: 60px;
+    padding-left: 80px;
     color: white;
 }
 
 .texto-cessao1 h2 {
+    font-size: 26px;
     font-weight: 300;
 }
 
 .texto-cessao1 p {
     margin-top: 20px;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .texto-cessao1 ul {
-    font-size: 13px;
+    font-size: 15px;
     list-style-position: inside;
 }
 
 .texto-cessao1 ul li {
     float: left;
     width: 100%;
+    margin-top: 8px;
 }
 
 .btn1-texto {
     background-color: #ff703d;
     width: 165px;
     height: 44px;
+    font-size: 13px;
     color: white;
     cursor: pointer;
-    margin-top: 10px;
+    margin-top: 30px;
     text-align: center;
     line-height: 44px;
     border-radius: 30px;
@@ -123,8 +131,10 @@ section.cessao1 .container {
 .device-cessao1 {
     float: left;
     width: 50%;
-    height: 300px;
+    position: relative;
+    top: -30px;
+    height: 400px;
     background-image: url(/IMAGENS/Projeto_03/imagens/device.png);
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: 100% 100%;
 }
